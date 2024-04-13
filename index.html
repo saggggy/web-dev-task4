@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OTT Platform Clone</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="bg-dark text-white py-4">
+        <div class="container d-flex justify-content-between align-items-center">
+            <div class="logo">
+                <!-- <img src="logo.png" alt="OTT Platform Logo"> -->
+                <b>OTT</b>
+            </div>
+            <nav>
+                <ul class="list-inline mb-0">
+                    <li class="list-inline-item"><a href="#">Home</a></li>
+                    <li class="list-inline-item"><a href="#">Movies</a></li>
+                    <li class="list-inline-item"><a href="#">TV Shows</a></li>
+                    <li class="list-inline-item"><a href="#">My List</a></li>
+                    <li class="list-inline-item"><a href="#">Search</a></li>
+                    <li class="list-inline-item"><a href="#">Profile</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Homepage -->
+    <main>
+        <section class="hero pt-4">
+            <div class="container">
+                <div class="jumbotron">
+                    <h1 class="display-4">Welcome to OTT Platform</h1>
+                    <p class="lead">Watch your favorite movies and TV shows anytime, anywhere.</p>
+                    <hr class="my-4">
+                    <button class="btn btn-primary btn-lg">Watch Now</button>
+                </div>
+            </div>
+        </section>
+        
+        <section class="categories">
+            <div class="container">
+                <h2>Categories</h2>
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="card">
+                            <img src="./images/dog_darama.jpg" class="card-img-top" alt="Drama">
+                            <div class="card-body">
+                                <h5 class="card-title">Dog Gone</h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card">
+                            <img src="./images/true_drama.jpg" class="card-img-top" alt="Drama">
+                            <div class="card-body">
+                                <h5 class="card-title">True Spirit</h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card">
+                            <img src="./images/society_drama.jpg" class="card-img-top" alt="Drama">
+                            <div class="card-body">
+                                <h5 class="card-title">Socirty of the Snow</h5>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Add more categories -->
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Movie Details Page -->
+    <section class="movie-details pt-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <img src="./images/movies.jpg" class="img-fluid" alt="Movie Cover">
+                <!-- </div>
+                <div class="col-md-4"> -->
+                    <h1>Movie Title</h1>
+                    <p>Description of the movie...</p>
+                    <video controls class="w-100">
+                        <source src="movie.mp4" type="video/mp4">
+                    </video>
+                </div>
+            </div>
+            <!-- Related Movies -->
+            <div class="row">
+                <div class="col">
+                    <h2>Related Movies</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="related-movie1.jpg" class="card-img-top" alt="Related Movie">
+                        <div class="card-body">
+                            <h5 class="card-title">Related Movie Title</h5>
+                        </div>
+                    </div>
+                </div>
+                <!-- Add more related movies -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white py-4">
+        <div class="container d-flex justify-content-between">
+            <ul class="list-inline mb-0">
+                <li class="list-inline-item"><a href="#">Terms of Service</a></li>
+                <li class="list-inline-item"><a href="#">Privacy Policy</a></li>
+                <li class="list-inline-item"><a href="#">Contact Us</a></li>
+            </ul>
+            <!-- Social Media Icons -->
+            <div class="social-media">
+                <a href="#"><i class="bi bi-instagram px-3"></i></a>
+                <a href="#"><i class="bi bi-twitter px-3"></i></a>
+                <a href="#"><i class="bi bi-facebook px-3"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

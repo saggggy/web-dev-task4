@@ -1,0 +1,71 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333333;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    background-color: #000000;
+    color: #ffffff;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-left: 1rem;
+}
+
+.hero img {
+    width: 100%;
+}
+
+.watch-now-btn {
+    background-color: #FF4500;
+    color: #ffffff;
+    padding: 0.5rem 1rem;
+    border: none;
+    cursor: pointer;
+}
+
+.categories {
+    padding: 1rem;
+}
+
+.category-card {
+    width: 30%;
+    margin: 1rem;
+}
+
+.movie-details {
+    padding: 1rem;
+}
+
+.movie-details img {
+    width: 100%;
+}
+
+.movie-card {
+    width: 30%;
+    margin: 1rem;
+}
+
+footer {
+    background-color: #000000;
+    color: #ffffff;
+    text-align: center;
+    padding: 1rem;
+}
+
+.social-media img {
+    width: 30px;
+    margin: 0.5rem;
+}
